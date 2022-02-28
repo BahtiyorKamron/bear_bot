@@ -1,0 +1,17 @@
+[
+    {
+        "product_id": 1,
+        "narxi": 1000,
+        "id": 1
+    },
+    {
+        "product_id": 3,
+        "narxi": 80000,
+        "id": 2
+    },
+    {
+        "product_id": 3,
+        "narxi": 80000,
+        "id": 3
+    }
+]
