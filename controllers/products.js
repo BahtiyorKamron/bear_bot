@@ -36,8 +36,8 @@ module.exports = class Products {
 
     for(let i of products){
       if(i.id==req.body.id){
-        i.nomi = req.body.nomi ? req.body.nomi : i.nomi
-        i.narxi = req.body.narxi ? req.body.narxi : i.narxi
+        i.username = req.body.username ? req.body.username : i.username
+        i.password = req.body.password ? req.body.password : i.password
         i.chegirmasi = req.body.chegirmasi ? req.body.chegirmasi : i.chegirmasi
         i.info = req.body.info ? req.body.info : i.info
       }
