@@ -32,9 +32,9 @@ module.exports = class Users {
         if(i.id==req.body.id){
           i.name = req.body.name ? req.body.name : i.name
           i.age = req.body.age ? req.body.age : i.age
-          i.phone = req.body.phone ? req.body.phone : i.phone
-          i.viloyat = req.body.viloyat ? req.body.viloyat : i.viloyat
-          i.location = req.body.location ? req.body.location : i.location
+          i.surname = req.body.surname ? req.body.surname : i.surname
+          i.login = req.body.login ? req.body.viloyloginat : i.login
+          i.password = req.body.password ? req.body.password : i.password
         }
       }
       fs.writeFileSync(path.join(process.cwd(),"data","users.json"),JSON.stringify(users,null,4))
